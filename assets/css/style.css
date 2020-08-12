@@ -122,10 +122,10 @@ h6 {
 }
 
 p {
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 550;
   line-height: 24px;
-  color: #565656;
+  color: #aaa6a6;
   margin-bottom: 0;
 }
 
@@ -474,7 +474,7 @@ img {
 }
 
 .overlay-dark::after {
-  background-color: rgba(16, 16, 45, 1);
+  background-color: #138ff7;
   opacity: 0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
   z-index: -1;
@@ -585,7 +585,7 @@ img {
 }
 
 .subscribe-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/map.png") no-repeat scroll center
+  background: rgba(19,143,247, 0) url("../img/bg/map.png") no-repeat scroll center
     center / cover;
 }
 
@@ -1347,9 +1347,9 @@ img {
 
 .slick-dots .slick-active button,
 .testimonial-area .owl-carousel button.owl-dot.active {
-  background-color: #7c4fe0;
-  -webkit-box-shadow: 0 1px 5px #7c4fe0;
-  box-shadow: 0 1px 5px #7c4fe0;
+  background-color: #138ff7;
+  -webkit-box-shadow: 0 1px 5px #138ff7;
+  box-shadow: 0 1px 5px #138ff7;
 }
 
 /* ******************************
@@ -1432,32 +1432,6 @@ img {
   margin: 5px;
   -webkit-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
-}
-
-/* ******************************
-:: 17.0 PRICE PLAN AREA CSS
-****************************** */
-.single-price-plan {
-  -webkit-box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.09);
-  box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.09);
-  background-color: #fff;
-  border-radius: 1rem;
-}
-
-.plan-title > h3 {
-  letter-spacing: 3px;
-  opacity: 0.8;
-}
-
-.plan-price > h1 > small {
-  font-size: 60%;
-}
-
-.plan-button {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
 }
 
 /* ******************************
@@ -1562,7 +1536,7 @@ img {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: #7c4fe0;
+  background-color: #138ff7;
   border-radius: 100px;
   opacity: 0.9;
   z-index: -1;
@@ -1647,64 +1621,7 @@ img {
 .subscribe-form button {
   height: 60px;
   border-radius: 8px;
-  background: #7c4fe0 !important;
-}
-
-/* ******************************
-:: 21.0 BLOG AREA CSS
-****************************** */
-.blog-area {
-  z-index: 1;
-}
-
-.single-blog {
-  background-color: #fff;
-  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
-}
-
-.blog-thumb img {
-  display: block;
-  width: 100%;
-  border-radius: 6px;
-}
-
-.blog-content > p {
-  line-height: 1.8;
-}
-
-.blog-btn {
-  position: relative;
-  display: inline-block;
-}
-
-.blog-btn::after {
-  position: absolute;
-  content: "\f101";
-  font-weight: 900;
-  font-family: "Font Awesome 5 Free";
-  opacity: 0;
-  visibility: hidden;
-  top: 50%;
-  -webkit-transform: translateX(3px) translateY(-50%);
-  transform: translateX(3px) translateY(-50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.blog-btn:hover::after,
-.blog-btn:focus::after {
-  visibility: visible;
-  opacity: 1;
-  top: 50%;
-  -webkit-transform: translateX(5px) translateY(-50%);
-  transform: translateX(5px) translateY(-50%);
-}
-
-.single-blog:hover {
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+  background: #138ff7 !important;
 }
 
 /* ******************************
@@ -1998,7 +1915,7 @@ img {
 .comments-content > h5 > a:last-child {
   font-size: 14px;
   font-weight: 500;
-  color: #7c4fe0;
+  color: #138ff7;
 }
 
 .contact-box.comment-box {
@@ -2030,7 +1947,7 @@ img {
   line-height: 45px;
   font-size: 18px;
   text-align: center;
-  background-color: #7c4fe0;
+  background-color: #138ff7;
   color: #fff;
   border-radius: 4px;
 }
@@ -2073,7 +1990,7 @@ img {
 .contact-box button {
   height: 60px;
   border-radius: 8px;
-  background: #7c4fe0 !important;
+  background: #138ff7 !important;
 }
 
 /*Map Area*/

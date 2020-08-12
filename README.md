@@ -2,9 +2,6 @@
 
 ### Landing Page
 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/06636a72-bd59-41a8-9620-1343c09882d7/deploy-status)](https://app.netlify.com/sites/college-connect/deploys)
-
 ## Project Structure
 
 ###

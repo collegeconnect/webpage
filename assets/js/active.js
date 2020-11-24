@@ -273,7 +273,7 @@
                 $(formMessages).addClass('success');
 
                 // Set the message text.
-                $(formMessages).text("Your message has been recieved. We will contact you shortly");
+                $(formMessages).text("Your message has been recieved.\n We will contact you shortly");
 
                 // Clear the form.
                 $('#contact-form input,#contact-form textarea').val('');

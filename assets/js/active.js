@@ -273,7 +273,8 @@
                 $(formMessages).addClass('success');
 
                 // Set the message text.
-                $(formMessages).text("Your message has been recieved.\n We will contact you shortly");
+                var obj = $(formMessages).text("Your message has been recieved\nWe will contact you shortly.");
+                obj.html(obj.html().replace(/\n/g, '<br/>'));
 
                 // Clear the form.
                 $('#contact-form input,#contact-form textarea').val('');
@@ -287,7 +288,8 @@
                 if (data.responseText !== '') {
                     $(formMessages).text(response);
                 } else {
-                    $(formMessages).text('Oops! An error occured and your message could not be sent.');
+                    var obj = $(formMessages).text('Oops! An error occured\nYour message could not be sent.');
+                    obj.html(obj.html().replace(/\n/g, '<br/>'));
                 }
             });
     });

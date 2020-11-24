@@ -2183,3 +2183,13 @@ img {
     padding-top: 0;
   }
 }
+
+.error{
+  color: #FF0000;
+  font-size: 16px;
+}
+
+.success{
+  color: #00FF00;
+  font-size: 16px;
+}

@@ -273,7 +273,7 @@
                 $(formMessages).addClass('success');
 
                 // Set the message text.
-                $(formMessages).text(response);
+                $(formMessages).text("Your message has been recieved. We will contact you shortly");
 
                 // Clear the form.
                 $('#contact-form input,#contact-form textarea').val('');
@@ -285,7 +285,7 @@
 
                 // Set the message text.
                 if (data.responseText !== '') {
-                    $(formMessages).text("Your message has been recieved. We will contact you shortly");
+                    $(formMessages).text(response);
                 } else {
                     $(formMessages).text('Oops! An error occured and your message could not be sent.');
                 }

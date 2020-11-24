@@ -285,7 +285,7 @@
 
                 // Set the message text.
                 if (data.responseText !== '') {
-                    $(formMessages).text(data.responseText);
+                    $(formMessages).text("Your message has been recieved. We will contact you shortly");
                 } else {
                     $(formMessages).text('Oops! An error occured and your message could not be sent.');
                 }
